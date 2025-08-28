@@ -1,0 +1,71 @@
+{
+  "type" : "itemTurret",
+  "size" : 2,
+  "health" : 350,
+  "reload" : 180,
+  "range" : 240,
+  "rotateSpeed" : 3.5,
+  "category" : "turret",
+  "inaccuracy" : 8,
+  "ammoPerShot" : 6,
+  "shootSound" : "blaster", 
+  "targetGround" : false, 
+  "research" : {
+   "parent" : "machine-gun", 
+   "requirements" : [
+    {"item": "asbestos", "amount" : 160}, 
+    {"item": "iron", "amount" : 300},
+    {"item": "copper", "amount" : 170}
+    ]
+   }, 
+  "shoot" : {
+   "type" : "ShootPattern", 
+   "shots" : 6,
+   "shotDelay" : 5
+  }, 
+  "ammoTypes" : {
+   "steel" : {
+    "type" : "MissileBulletType",
+    "lifetime" : 40,
+    "speed" : 6,
+    "height" : 13, 
+    "width" : 8,
+    "damage" : 0,
+    "splashDamage" : 9,
+    "splashDamageRadius" : 30,
+    "frontColor" : "#FFFFFF", 
+    "backColor" : "#B0C4DE", 
+    "trailLength" : 7, 
+    "trailWidth" : 1,
+    "trailColor" : "#B0C4DE", 
+    "shootEffect" : "shootSmallSmoke", 
+    "despawnEffect" : {
+     "type" : "WaveEffect",
+     "sizeFrom" : 0,
+     "sizeTo" : 30,
+     "lifetime" : 20,
+     "colorTo" : "#B0C4DE", 
+     "sides" : 4,
+     "strokeFrom" : 3,
+     "strokeTo" : 0
+     }, 
+    "hitEffect" : {
+     "type" : "WaveEffect",
+     "sizeFrom" : 0,
+     "sizeTo" : 30,
+     "lifetime" : 20,
+     "colorTo" : "#B0C4DE", 
+     "sides" : 4,
+     "strokeFrom" : 3,
+     "strokeTo" : 0
+     } 
+    } 
+   } 
+  "requirements" : [
+   {"item": "iron", "amount": 100},
+   {"item": "asbestos", "amount": 80},
+   {"item": "copper", "amount": 85}
+  ]
+} 
+    
+    

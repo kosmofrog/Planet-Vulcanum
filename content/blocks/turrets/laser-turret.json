@@ -1,0 +1,76 @@
+{
+  "type" : "PowerTurret",
+  "targetAir" : false,  
+  "size" : 3,
+  "heatRequirement" : 6,
+  "health" : 450,
+  "reload" : 350,
+  "rotateSpeed" : 3.5,
+  "range" : 400,
+  "category" : "turret", 
+  "shootSound" : "railgun",
+  "research" : {
+   "parent" : "machine-gun", 
+   "requirements" : [
+    {"item": "iron", "amount": 400},
+    {"item": "steel", "amount": 300},
+    {"item": "asbestos", "amount": 400},
+    {"item": "copper", "amount": 400}
+   ]
+  }, 
+  "maxHeatEfficiency" : 1,
+  "recoil" : 3,
+  "recoilTime" : 50,
+  "shootY" : -1,
+  "drawer": {
+  "type": "DrawTurret",
+  "parts": [
+   {
+    "type": "RegionPart",
+    "suffix": "-heat",
+    "heatProgress" : "recoil", 
+    }
+   ]
+  }, 
+  "requirements" : [
+   {"item": "iron", "amount": 150},
+   {"item": "steel", "amount": 120},
+   {"item": "asbestos", "amount": 150},
+   {"item": "copper", "amount": 150}
+   ],
+  "shootType" : {
+   "type" : "LaserBulletType", 
+   "lifetime" : 40,
+   "length" : 400,
+   "width" : 20,
+   "sideWidth" : 0,
+   "colors" : ["#8B0000	", "#8B0000	", "#FFFFFF"], 
+   "damage" : 80, 
+   "laserAbsorb" : true, 
+   "pierce" : false, 
+   "lightningDelay" : 0,
+   "laserEffect" : "none", 
+   "shootEffect" : {
+    "type" : "ParticleEffect", 
+    "particles" : 4,
+    "line" : true, 
+    "colorFrom" : "#CD5C5C", 
+    "colorTo" : "#FFFFFF", 
+    "sizeFrom" : 4,
+    "sizeTo" : 0,
+    "cone" : 180
+    }, 
+   "hitEffect" : {
+    "type" : "ParticleEffect", 
+    "particles" : 6,
+    "line" : true, 
+    "colorFrom" : "#CD5C5C", 
+    "colorTo" : "#FFFFFF", 
+    "sizeFrom" : 4,
+    "sizeTo" : 0,
+    "cone" : 360
+    }, 
+   "despawnEffect" : "none" 
+  }
+} 
+  

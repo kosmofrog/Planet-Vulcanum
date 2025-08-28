@@ -1,0 +1,36 @@
+{
+  "type" : "itemTurret",
+  "size" : 1,
+  "health" : 300,
+  "reload" : 70,
+  "rotateSpeed" : 4,
+  "research" : {
+   "parent" : "core-base", 
+   "requirements" : [
+    {"item": "iron", "amount" : 50}, 
+    {"item": "copper", "amount" : 15}
+    ]
+   }, 
+  "category" : "turret", 
+  "shoot" : {
+   "type" : "ShootPattern", 
+   "shots" : 3,
+   "shotDelay" : 9
+    },
+  "requirements" : [
+   {"item": "iron", "amount": 30},
+   {"item": "copper", "amount": 10}
+  ],
+  "ammoTypes" : {
+   "copper" : {
+    "type" : "BasicBulletType",
+    "damage" : 4,
+    "speed" : 3.5,
+    "lifetime" : 30,
+    "height" : 12,
+    "width" : 5,
+    "frontColor" : "#F0E68C",
+    "backColor" : "#FFFACD"
+    }
+  }
+} 
