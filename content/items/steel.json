@@ -1,0 +1,6 @@
+{
+  "type" : "item",
+  "color" : "#808080", 
+  "flammability" : 0.05, 
+  "research" : "coal" 
+}

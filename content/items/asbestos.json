@@ -1,0 +1,7 @@
+{
+  "type" : "item",
+  "hardness" : 1,
+  "color" : "#F0E68C",
+  "research" : "iron", 
+  "radioactivity" : 0.3
+} 
