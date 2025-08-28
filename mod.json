@@ -1,0 +1,12 @@
+{
+  "name" : "v",
+  "displayName" : "Planet Vulcanum",
+  "description" : "
+EN: Adds Vulcanum - hot dirty planet, that has dangerous enemies. P.s. now mod has two sectors you can beat, but there are some bugs I can't fix. 
+RU: Добавляет Вулканум - горячую пыльную планеты с опасными противниками. P.s. сейчас мод имеет два сектора, которые можно пройти, но здесь также немного багов, которые я не могу исправить.",
+  "subtitle" : "W.I.P.",
+  "author" : "kosmofrog",
+  "planet" : "vulcanum", 
+  "version" : 2.0,
+  "minGameVersion" : 146
+} 
