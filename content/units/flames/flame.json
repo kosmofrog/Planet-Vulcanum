@@ -1,0 +1,58 @@
+{
+  "type" : "naval",
+  "naval" : true,
+  "health" : 175,
+  "speed" : 0.5,
+  "rotate" : false, 
+  "faceTarget" : false, 
+  "outlineColor" : "#303030FF", 
+  "immunities" : ["melting", "burning"],
+  "trailLength" : 5,
+  "weapons" : [
+   {
+    "name" : "flamethrower",
+    "x" : 0,
+    "y" : 0,
+    "reload" : 40,
+    "rotate" : true, 
+    "rotateSpeed" : 4,
+    "mirror" : false, 
+    "shoot" : {
+     "type" : "ShootPattern",
+     "shots" : 2,
+     "shotDelay" : 10
+     },
+    "shootSound" : "flame",
+    "bullet" : {
+     "type" : "LiquidBulletType",
+     "lifetime" : 30,
+     "speed" : 4,
+     "damage" : 5,
+     "liquid" : "slag",
+     "status" : "burning"
+     }
+   }
+ ],
+  "abilities" : [
+   {
+    "type" : "StatusFieldAbility",
+    "reload" : 110,
+    "onShoot" : false,
+    "range" : 50,
+    "color" : "#FFA500",
+    "effect" : "burning", 
+    "activeEffect" : {
+     "type" : "WaveEffect",
+     "sizeFrom" : 0,
+     "sizeTo" : 50,
+     "lifetime" : 20,
+     "colorTo" : "#FFA500", 
+     "sides" : 4,
+     "strokeFrom" : 3,
+     "strokeTo" : 0,
+     "rotation" : 45
+      }
+    } 
+  ] 
+} 
+     
