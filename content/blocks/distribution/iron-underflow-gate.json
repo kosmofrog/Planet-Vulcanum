@@ -1,0 +1,18 @@
+{
+  "type" : "overflowGate",
+  "size" : 1,
+  "health" : 120,
+  "research" : {
+   "parent" : "iron-duct", 
+   "requirements" : [
+    {"item": "iron", "amount" : 8}, 
+    {"item": "copper", "amount" : 8}
+    ]
+   }, 
+  "requirements" : [
+   {"item": "iron", "amount": 2},
+   {"item": "copper", "amount": 2}
+   ],
+  "speed" : 0.04
+  "invert" : true
+}

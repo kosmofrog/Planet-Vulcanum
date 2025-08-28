@@ -1,0 +1,17 @@
+{
+  "type" : "duct",
+  "size" : 1,
+  "health" : 100,
+  "speed" : 12,
+  "research" : {
+   "parent" : "core-base", 
+   "requirements" : [
+    {"item": "iron", "amount" : 5}
+    ]
+   }, 
+  "bridgeReplacement" : "iron-bridge",
+  "junctionReplacement" : "iron-junction", 
+  "requirements" : [
+   {"item": "iron", "amount": 1}
+  ]
+} 

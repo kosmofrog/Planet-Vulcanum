@@ -1,0 +1,18 @@
+{
+  "type" : "ductBridge",
+  "transportTime" : 4,
+  "range" : 4,
+  "size" : 1,
+  "health" : 150,
+  "research" : {
+   "parent" : "iron-duct", 
+   "requirements" : [
+    {"item": "iron", "amount" : 10}, 
+    {"item": "copper", "amount" : 8}
+    ]
+   }, 
+  "requirements" : [
+   {"item": "iron", "amount": 4},
+   {"item": "copper", "amount": 2}
+   ]
+} 
