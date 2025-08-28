@@ -1,0 +1,45 @@
+{
+  "type" : "HeatCrafter",
+  "size" : 2,
+  "health" : 350,
+  "category" : "crafting",
+  "heatRequirement" : 2,
+  "research" : {
+   "parent" : "core-base", 
+   "requirements" : [
+    {"item": "iron", "amount": 150},
+    {"item": "copper", "amount": 200}
+    ]
+   },
+  "requirements" : [
+   {"item": "iron", "amount": 40},
+   {"item": "copper", "amount": 60}
+   ],
+  "drawer" : {
+   "type" : "DrawMulti",
+   "drawers" : [
+    {
+     "type" : "DrawDefault"
+    },
+    {
+     "type" : "DrawGlowRegion",
+     "suffix" : "-heat",
+     "blending" : "additive", 
+     "color" : "#D76A6A80"
+    }, 
+    {
+     "type" : "DrawFlame",
+    } 
+   ]
+  },
+  "outputItem" : {"item": "steel", "amount": 2},
+  "consumes" : {
+   "items" : {
+    "items" : [
+     {"item": "iron", "amount": 1},
+     {"item": "coal", "amount": 2}
+     ]
+    }
+   },
+  "craftEffect" : "smoke"
+} 
