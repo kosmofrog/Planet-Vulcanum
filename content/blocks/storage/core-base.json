@@ -1,0 +1,22 @@
+{
+  "type" : "coreBlock",
+  "hasItem" : true,
+  "itemCapacity" : 1500,
+  "alwaysUnlocked" : true, 
+  "health" : 2000,
+  "size" : 2,
+  "unitCapModifier" : 20,
+  "requirements" : [
+   {"item": "iron", "amount": 1500},
+   {"item": "copper", "amount": 1500}
+   ],
+  "buildTime" : 300, 
+  "unitType" : "observer", 
+  "category" : "effect", 
+  "research" : {
+   "planet" : "vulcanum", 
+   "root" : true
+   "name" : "Vulcanum", 
+   "requiresUnlock" : false
+  } 
+}
