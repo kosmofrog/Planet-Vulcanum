@@ -1,0 +1,79 @@
+{
+  "type" : "mech",
+  "health" : 175,
+  "speed" : 0.5,
+  "outlineColor" : "#303030FF", 
+  "research" : {
+   "parent" : "T1-fabric"
+   "requirements" : [
+    {"item": "steel", "amount" : 150}, 
+    {"item": "copper", "amount": 200}
+    ] 
+   }, 
+  "weapons" : [
+   {
+    "name" : "spark-shooter",
+    "top" : false, 
+    "x" : 0,
+    "y" : 0,
+    "mirror" : true,
+    "reload" : 100,
+    "shootSound" : "spark",
+    "bullet" : {
+     "type" : "BasicBulletType",
+     "damage" : 10,
+     "lifetime" : 25,
+     "speed" : 4,
+     "height" : 9,
+     "width" : 9,
+     "frontColor" : "#FFFFFF",
+     "backColor" : "#DA70D6",
+     "fragBullets" : 3,
+     "fragRandomSpread" : 360,
+     "status" : "electrified",
+     "fragBullet" : {
+      "type" : "lightningBulletType",
+      "lightningDamage" : 3,
+      "lightningLength" : 7,
+      "lightningColor" : "#DA70D6",
+      "status" : "shocked",
+      },
+     "shootEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#DA70D6", 
+      "lifetime" : 20,
+      "particles" : 3,
+      "cone" : 180
+      }, 
+     "hitEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#DA70D6", 
+      "lifetime" : 20,
+      "particles" : 4,
+      "cone" : 360
+      }, 
+     "despawnEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#DA70D6", 
+      "lifetime" : 20,
+      "particles" : 4,
+      "cone" : 360
+      }
+     }
+    } 
+   ] 
+} 
+      
+

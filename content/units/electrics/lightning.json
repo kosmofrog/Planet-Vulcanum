@@ -1,0 +1,80 @@
+{
+  "type" : "mech",
+  "rotateSpeed" : 2,
+  "speed" : 0.3,
+  "health" : 540,
+  "armor" : 3,
+  "outlineColor" : "#303030FF",
+  "weapons" : [
+   {
+    "name" : "lightning-blaster",
+    "top" : false, 
+    "x" : 0,
+    "shootX" : 7,
+    "y" : 0,
+    "reload" : 90,
+    "shoot" : {
+     "type" : "ShootPattern", 
+     "shots" : 3,
+     "shotDelay" : 4
+     }, 
+    "mirror" : true,
+    "shootSound" : "blaster",
+    "bullet" : {
+     "type" : "BasicBulletType",
+     "damage" : 7,
+     "lightningDamage" : 2,
+     "lightning" : 3,
+     "sprite" : "circle-bullet", 
+     "backSprite" : "circle-bullet-back", 
+     "lifetime" : 40,
+     "speed" : 4,
+     "height" : 6, 
+     "width" : 4,
+     "lightningLength" : 7, 
+     "frontColor" : "#FFFFFF", 
+     "backColor" : "#DA70D6", 
+     "lightningColor" : "#DA70D6", 
+     "status" : "electrified", 
+     "pierce" : true,   
+     "pierceCap" : 1,
+      "shootEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#DA70D6", 
+      "lifetime" : 20,
+      "particles" : 3,
+      "cone" : 180
+      }, 
+     "hitEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#DA70D6", 
+      "lifetime" : 20,
+      "particles" : 4,
+      "cone" : 360
+      }, 
+     "despawnEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#DA70D6", 
+      "lifetime" : 20,
+      "particles" : 4,
+      "cone" : 360
+      }
+     }
+    } 
+   ] 
+} 
+     
+     
+     
