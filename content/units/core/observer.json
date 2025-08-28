@@ -1,0 +1,38 @@
+{
+  "type" : "flying",
+  "flying" : true, 
+  "speed" : 4.5,
+  "health" : 120,
+  "hitSize" : 8,
+  "mineSpeed" : 6,
+  "mineTier" : 1,
+  "buildSpeed" : 1,
+  "outlineColor" : "#303030FF",  
+  "weapons" : [
+   {
+    "name" : "pew",
+    "x" : 0,
+    "y" : 0.5,
+    "reload" : 70,
+    "shoot" : {
+     "type" : "ShootPattern", 
+     "shots" : 2,
+     "shotDelay" : 10
+    }, 
+    "bullet" : {
+     "type" : "BasicBulletType", 
+     "damage" : 4, 
+     "speed" : 3.5,
+     "lifetime" : 30,
+     "buildingDamageMultiplier" : 0.01, 
+     "frontColor" : "#FFFFFF", 
+     "backColor" : "#FFDAB9",
+     "trailLength" : 6,
+     "trailColor" : "#FFDAB9", 
+     "height" : 6,
+     "width" : 5,
+     } 
+    } 
+  ] 
+} 
+     
