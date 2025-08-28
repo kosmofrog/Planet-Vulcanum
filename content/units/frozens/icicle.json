@@ -1,0 +1,74 @@
+{
+  "type" : "flying",
+  "flying" : true,
+  "speed" : 4,
+  "health" : 145,
+  "hitSize" : 8,
+  "engineSize" : 1.8,
+  "engineOffset" : 5.2,
+  "engineColor" : "#AFEEEE", 
+  "trailLength" : 7,
+  "trailColor" : "#AFEEEE", 
+  "outlineColor" : "#303030FF", 
+  "weapons" : [
+   {
+    "name" : "frozen-shoot",
+    "x" : 0,
+    "y" : 0,
+    "reload" : 65,
+    "shootSound" : "bolt", 
+    "bullet" : {
+     "type" : "BasicBulletType", 
+     "damage" : 12,
+     "status" : "freezing",
+     "pierce" : true,
+     "pierceCap" : 2,
+     "pierceBuilding" : true, 
+     "lifetime" : 20,
+     "speed" : 7,
+     "height" : 10,
+     "width" : 3,
+     "frontColor" : "#FFFFFF", 
+     "backColor" : "#AFEEEE", 
+     "trailLength" : 12,
+     "trailWidth" : 1,
+     "trailColor" : "#AFEEEE", 
+     "shootEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#AFEEEE", 
+      "lifetime" : 20,
+      "particles" : 3,
+      "cone" : 180
+      }, 
+     "hitEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#AFEEEE", 
+      "lifetime" : 20,
+      "particles" : 3,
+      "cone" : 360
+      }, 
+     "despawnEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#AFEEEE", 
+      "lifetime" : 20,
+      "particles" : 3,
+      "cone" : 360
+      } 
+     }
+    } 
+   ] 
+} 
+
+     
