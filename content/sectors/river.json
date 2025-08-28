@@ -1,0 +1,22 @@
+{
+  "attack" : true, 
+  "planet" : "vulcanum", 
+  "launchRequirements" : [
+   {"item" : "copper", "amount" : 0}
+  ], 
+  "sector" : 1,
+  "difficulty" : 1,
+  "overrideLaunchDefaults": true,
+  "addStartingItems" : false, 
+  "research" : {
+   "parent" : "core-base", 
+   "objectives" : [
+    {
+     "type" : "SectorComplete", 
+     "preset" : "arc" 
+    } 
+   ]
+  }, 
+  "darknessColor": "#800000",
+  "ambientLight": "#A52A2A"  
+} 
