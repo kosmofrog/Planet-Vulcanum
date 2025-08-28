@@ -1,0 +1,37 @@
+{
+  "type" : "RegenProjector",
+  "size" : 1,
+  "health" : 250,
+  "category" : "effect",
+  "research" : {
+   "parent" : "iron-wall-large", 
+   "requirements" : [
+    {"item": "iron", "amount": 90},
+    {"item": "asbestos", "amount": 45},
+    {"item": "copper", "amount": 30}
+   ]
+  }, 
+  "requirements" : [
+   {"item": "iron", "amount": 30},
+   {"item": "asbestos", "amount": 15},
+   {"item": "copper", "amount": 10}
+   ],
+  "consumes" : {
+   "power" : 3
+  }, 
+  "radius" : 48,
+  "healPercent" : 0.02, 
+  "baseColor" : "#FFFACD",
+  "category" : "effect", 
+  "effect" : {
+   "type" : "WaveEffect", 
+   "sizeFrom" : 0,
+   "sizeTo" : 15,
+   "lifetime" : 20,
+   "colorTo" : "#FFFACD", 
+   "sides" : 4,
+   "strokeFrom" : 3,
+   "strokeTo" : 0,
+   "rotation" : 45
+   }
+} 
