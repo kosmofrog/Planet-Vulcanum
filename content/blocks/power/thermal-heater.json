@@ -1,0 +1,43 @@
+{
+  "type" : "HeaterGenerator",
+  "size" : 2,
+  "health" : 320,
+  "category" : "power",
+  "research" : {
+   "parent" : "core-base", 
+   "requirements" : [
+    {"item": "iron", "amount": 200},
+    {"item": "copper", "amount" : 300}
+   ]
+  }, 
+  "requirements" : [
+   {"item": "iron", "amount": 80},
+   {"item": "copper", "amount" : 90}
+  ], 
+  "drawer" : {
+   "type" : "DrawMulti",
+   "drawers" : [
+    {
+     "type" : "DrawDefault"
+    },
+    {
+     "type" : "DrawGlowRegion",
+     "suffix" : "-heat",
+     "blending" : "additive", 
+     "color" : "#D76A6A80", 
+    }, 
+    { 
+     "type" : "DrawRegion", 
+     "suffix" : "-top", 
+     "buildingRotate" : true 
+    } 
+   ] 
+  }, 
+  "heatOutput" : 2,
+  "consumes" : {
+   "liquids" : [
+    "slag/0.3"
+    ]  
+  }
+} 
+     

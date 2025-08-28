@@ -1,0 +1,35 @@
+{
+  "type" : "HeatCrafter", 
+  "size" : 1,
+  "health" : 200,
+  "category" : "power", 
+  "requirements" : [
+   {"item": "copper", "amount": 15},
+   {"item": "iron", "amount": 10}
+  ], 
+  "drawer" : {
+   "type" : "DrawMulti", 
+   "drawers" : [
+    {
+     "type" : "DrawDefault" 
+    }, 
+    {
+     "type" : "DrawGlowRegion", 
+     "suffix" : "-heat",
+     "blending" : "additive", 
+     "color" : "#D76A6A80", 
+    }
+   ] 
+  }, 
+  "outputLiquid" : {"liquid": "slag", "amount": 0.15},
+  "heatRequirement" : 1, 
+  "research" : {
+   "parent" : "thermal-heater",  
+   "requirements" : [
+    {"item": "copper", "amount": 45},
+    {"item": "iron", "amount": 30}
+   ]
+  }  
+}
+  
+  

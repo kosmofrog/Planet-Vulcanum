@@ -1,0 +1,21 @@
+{
+  "type" : "GenericCrafter", 
+  "size" : 1,
+  "health" : 200,
+  "category" : "power", 
+  "requirements" : [
+   {"item": "copper", "amount": 15},
+   {"item": "iron", "amount": 10}
+  ], 
+  "outputLiquid" : {"liquid": "slag", "amount": 0.3},
+  "consumes" : {"power" : 6}, 
+  "research" : {
+   "parent" : "thermal-heater",  
+   "requirements" : [
+    {"item": "copper", "amount": 45},
+    {"item": "iron", "amount": 30}
+   ]
+  }  
+}
+  
+  
