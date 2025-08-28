@@ -1,0 +1,20 @@
+{
+  "type" : "liquidBridge",
+  "transportTime" : 4,
+  "floating" : true,
+  "research" : {
+   "parent" : "asbestos-pipe", 
+   "requirements" : [
+    {"item": "asbestos", "amount" : 10}, 
+    {"item": "iron", "amount" : 20}
+    ]
+   },  
+  "range" : 4,
+  "size" : 1,
+  "health" : 150,
+  "category" : "liquid", 
+  "requirements" : [
+   {"item": "iron", "amount": 4},
+   {"item": "asbestos", "amount": 2}
+   ]
+} 

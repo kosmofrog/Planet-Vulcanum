@@ -1,0 +1,20 @@
+{
+  "type" : "liquidJunction",
+  "floating" : true, 
+  "research" : {
+   "parent" : "asbestos-pipe", 
+   "requirements" : [
+    {"item": "asbestos", "amount" : 10}, 
+    {"item": "iron", "amount" : 10}
+    ]
+   }, 
+  "size" : 1,
+  "health" : 120,
+  "category" : "liquid",
+  "requirements" : [
+   {"item": "asbestos", "amount": 2}, 
+   {"item": "iron", "amount": 2}
+  ], 
+  "solid" : false 
+} 
+   

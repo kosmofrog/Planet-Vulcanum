@@ -1,0 +1,19 @@
+{
+  "type" : "pump",
+  "floating" : true, 
+  "size" : 1,
+  "health" : 150,
+  "research" : {
+   "parent" : "iron-drill", 
+   "requirements" : [
+    {"item": "asbestos", "amount" : 100}, 
+    {"item": "iron", "amount" : 30}
+    ]
+   }, 
+  "requirements" : [
+   {"item": "iron", "amount": 30},
+   {"item": "asbestos", "amount": 10}
+   ],
+  "pumpAmount" : 0.1, 
+  "category" : "liquid" 
+} 

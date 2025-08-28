@@ -1,0 +1,20 @@
+{
+  "type" : "liquidRouter",
+  "floating" : true, 
+  "size" : 1,
+  "health" : 120,
+  "solid" : false,
+  "research" : {
+   "parent" : "asbestos-pipe", 
+   "requirements" : [
+    {"item": "asbestos", "amount" : 10}, 
+    {"item": "iron", "amount" : 10}
+    ]
+   }, 
+  "requirements" : [
+   {"item": "asbestos", "amount": 2}, 
+   {"item": "iron", "amount": 2}
+  ], 
+  "category" : "liquid", 
+  "liquidCapacity" : 20
+} 
