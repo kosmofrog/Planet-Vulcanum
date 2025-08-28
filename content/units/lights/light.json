@@ -1,0 +1,64 @@
+{
+  "type" : "tank",
+  "health" : 560,
+  "armor" : 3,
+  "speed" : 0.8,
+  "hitSize" : 9,
+  "rotate" : false,
+  "faceTarget" : false,
+  "outlineColor" : "#303030FF",  
+  "weapons" : [
+   {
+    "name" : "light-pew",
+    "x" : 0,
+    "shootY" : 2,
+    "y" : 0,
+    "rotate" : true,
+    "rotateSpeed" : 4.5,
+    "mirror" : false,
+    "reload" : 80,
+    "shootSound" : "lasershoot", 
+    "shoot" : {
+     "type" : "ShootPattern", 
+     "shots" : 3, 
+     "shotDelay" : 1
+      }, 
+    "bullet" : {
+     "type" : "MissileBulletType",
+     "damage" : 10,
+     "lifetime" : 90, 
+     "speed" : 3,
+     "width" : 6,
+     "frontColor" : "#FFFFFF",
+     "backColor" : "#FFFF8CFF", 
+     "trailSpacing": 5,
+     "trailLength": 7,
+     "trailColor": "#FFFF8CFF", 
+     "weaveMag" : 12, 
+     "weaveScale" : 0.2, 
+      "hitEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#FFFF8CFF", 
+      "lifetime" : 20,
+      "particles" : 3,
+      "cone" : 360
+      }, 
+     "despawnEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#FFFF8CFF", 
+      "lifetime" : 20,
+      "particles" : 3,
+      "cone" : 360
+      } 
+     } 
+    }
+  ]
+} 

@@ -1,0 +1,66 @@
+{
+  "type" : "tank",
+  "health" : 160,
+  "speed" : 1,
+  "armor" : 2,
+  "hitSize" : 6,
+  "rotate" : false,
+  "faceTarget" : false, 
+  "outlineColor" : "#303030FF", 
+  "research" : {
+   "parent" : "T1-fabric"
+   "requirements" : [
+    {"item": "steel", "amount" : 200}, 
+    {"item": "copper", "amount": 300}
+    ] 
+   },  
+  "weapons" : [
+   {
+    "name" : "shine-pew",
+    "x" : 0,
+    "y" : 0,
+    "rotate" : true,
+    "rotateSpeed" : 5.5,
+    "mirror" : false, 
+    "reload" : 40,
+    "shootSound" : "lasershoot", 
+    "bullet" : {
+     "type" : "MissileBulletType",
+     "damage" : 6,
+     "lifetime" : 90, 
+     "length" : 3,
+     "width" : 4,
+     "speed" : 3,
+     "frontColor" : "#FFFFFF", 
+     "backColor" : "#FFFF8CFF", 
+     "trailSpacing": 5,
+     "trailLength": 5,
+     "trailColor": "#FFFF8CFF", 
+     "weaveMag" : 12, 
+     "weaveScale" : 0.2, 
+     "hitEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#FFFF8CFF", 
+      "lifetime" : 20,
+      "particles" : 3,
+      "cone" : 360
+      }, 
+     "despawnEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#FFFF8CFF", 
+      "lifetime" : 20,
+      "particles" : 3,
+      "cone" : 360
+      }  
+     }
+    }
+  ]
+} 
