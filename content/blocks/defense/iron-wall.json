@@ -1,0 +1,15 @@
+{
+  "type" : "wall",
+  "size" : 1,
+  "health" : 600,
+  "category" : "defense",
+  "research" : {
+   "parent" : "core-base", 
+   "requirements" : [
+    {"item": "iron", "amount" : 25}
+    ]
+   }, 
+  "requirements" : [
+   {"item": "iron", "amount": 6}
+  ],
+} 

@@ -1,0 +1,15 @@
+{
+  "type" : "wall",
+  "size" : 2,
+  "health" : 2400,
+  "category" : "defense",
+  "research" : {
+   "parent" : "iron-wall", 
+   "requirements" : [
+    {"item": "iron", "amount" : 100}
+    ]
+   }, 
+  "requirements" : [
+   {"item": "iron", "amount": 24}
+  ]
+} 
