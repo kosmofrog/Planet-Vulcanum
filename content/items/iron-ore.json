@@ -1,0 +1,7 @@
+{
+  "type" : "item",
+  "color" : "#F17B44FF",
+  "hardness" : 1,
+  "research" : "core-base", 
+  "flammability" : 0.05
+}
