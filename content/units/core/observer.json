@@ -21,7 +21,7 @@
     }, 
     "bullet" : {
      "type" : "BasicBulletType", 
-     "damage" : 4, 
+     "damage" : 8, 
      "speed" : 3.5,
      "lifetime" : 30,
      "buildingDamageMultiplier" : 0.01, 
