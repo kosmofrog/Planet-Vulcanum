@@ -4,7 +4,7 @@
   "speed" : 0.5,
   "outlineColor" : "#303030FF", 
   "research" : {
-   "parent" : "T1-fabric"
+   "parent" : "basic-fabric"
    "requirements" : [
     {"item": "steel", "amount" : 150}, 
     {"item": "copper", "amount": 200}
