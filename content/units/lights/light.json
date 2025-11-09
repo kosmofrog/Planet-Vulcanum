@@ -3,10 +3,25 @@
   "health" : 560,
   "armor" : 3,
   "speed" : 0.8,
-  "hitSize" : 9,
+  "hitSize" : 14,
   "rotate" : false,
   "faceTarget" : false,
-  "outlineColor" : "#303030FF",  
+  "treadPullOffset" : 4,
+  "outlineColor" : "#303030FF", 
+  "treadRects" : [
+   {
+    "x" : 17,
+    "y" : 14,
+    "height" : 26,
+    "width" : 13
+   }, 
+   {
+    "x" : 17,
+    "y" : -38,
+    "height" : 26,
+    "width" : 13
+   }  
+  ], 
   "weapons" : [
    {
     "name" : "light-pew",

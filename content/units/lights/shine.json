@@ -2,13 +2,28 @@
   "type" : "tank",
   "health" : 160,
   "speed" : 1,
-  "armor" : 2,
-  "hitSize" : 6,
+  "armor" : 2, 
+  "hitSize" : 9,
+  "treadPullOffset" : 3,
   "rotate" : false,
   "faceTarget" : false, 
   "outlineColor" : "#303030FF", 
+  "treadRects" : [
+   {
+    "y" : 0,
+    "x" : 15,
+    "height" : 30,
+    "width" : 10
+   },
+   {
+    "y" : -30,
+    "x" : 15,
+    "height" : 30, 
+    "width" : 10
+   } 
+  ], 
   "research" : {
-   "parent" : "T1-fabric"
+   "parent" : "basic-fabric"
    "requirements" : [
     {"item": "steel", "amount" : 200}, 
     {"item": "copper", "amount": 300}
