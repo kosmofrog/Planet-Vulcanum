@@ -4,17 +4,15 @@
   "health" : 100,
   "size" : 1,
   "research" : {
-   "parent" : "iron-duct", 
+   "parent" : "asbestos-pump", 
    "requirements" : [
-    {"item": "asbestos", "amount" : 5}, 
-    {"item": "iron", "amount" : 10}
+    {"item": "asbestos", "amount" : 5}
     ]
    }, 
   "bridgeReplacement" : "asbestos-liquid-bridge", 
   "junctionReplacement" : "asbestos-liquid-junction", 
   "requirements" : [
    {"item": "asbestos", "amount": 1}
-   {"item": "iron", "amount": 2}
   ],
   "moveSpeed" : 0.7,
   "liquidPressure" : 1,
