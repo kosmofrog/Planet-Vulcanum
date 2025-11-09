@@ -36,7 +36,7 @@
   "consumes" : {
    "items" : {
     "items" : [
-     {"item": "iron", "amount": 1},
+     {"item": "iron-ore", "amount": 1},
      {"item": "coal", "amount": 2}
      ]
     }

@@ -1,0 +1,42 @@
+{
+  "type" : "GenericCrafter",
+  "size" : 1,
+  "health" : 200,
+  "craftTime" : 50,
+  "category" : "crafting", 
+  "requirements" : [
+   {"item" : "copper", "amount" : 10}
+  ],
+  "outputItem" : {"item": "iron", "amount": 1},
+  "consumes" : {
+   "liquids" : [
+    "slag/0.1"
+   ],
+   "items" : {
+    "items" : [
+     {"item": "iron-ore", "amount": 1}
+    ] 
+   }
+  }, 
+  "drawer" : {
+   "type" : "DrawMulti", 
+   "drawers" : [
+    {
+     "type" : "DrawDefault" 
+    }, 
+    {
+     "type" : "DrawFlame", 
+     "flameRadiusIn" : 1.2,
+     "flameRadius" : 1.6,
+     "lightRadius" : 30
+    } 
+   ] 
+  }, 
+  "research" : {
+   "parent" : "iron-ore", 
+   "requirements" : [
+    {"item" : "copper", "amount" : 20}
+   ] 
+  } 
+} 
+     
