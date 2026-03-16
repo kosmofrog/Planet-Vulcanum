@@ -37,8 +37,7 @@
     "requirements" : [
      {"item": "steel", "amount": 70}
      ]
-    },
-    {
+    }, 
      {
       "unit" : "spark",
       "time" : 600,
@@ -46,7 +45,7 @@
        {"item": "steel", "amount": 30},
        {"item": "copper", "amount": 25}
        ] 
-     }
+     }, 
      {
       "unit" : "flame",
       "time" : 600,
