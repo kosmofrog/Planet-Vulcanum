@@ -1,0 +1,23 @@
+{
+  "type" : "drill",
+  "size" : 2,
+  "health" : 250,
+  "tier" : 2,
+  "category" : "production",
+  "alwaysUnlocked" : true, 
+  "research" : {
+   "parent" : "core-base"
+  }, 
+  "drillEffect" : {
+   "type" : "ParticleEffect",  
+   "sizeFrom" : 2,
+   "sizeTo" : 0,
+   "colorFrom" : "#D3D3D3", 
+   "colorTo" : "#DCDCDC", 
+   "particles" : 8
+  },  
+  "requirements" : [
+   {"item": "copper", "amount": 30}
+  ],
+  "drillTime" : 670
+} 
