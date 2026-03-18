@@ -1,9 +1,15 @@
 {
   "name" : "v",
   "displayName" : "Planet Vulcanum",
-  "description" : "
-EN: Adds Vulcanum - hot dirty planet, that has dangerous enemies. P.s. now mod has two sectors you can beat, but there are some bugs I can't fix. 
-RU: Добавляет Вулканум - горячую пыльную планеты с опасными противниками. P.s. сейчас мод имеет два сектора, которые можно пройти, но здесь также немного багов, которые я не могу исправить.
+  "description" : "EN: Adds Vulcanum - hot dirty planet, that has dangerous enemies.
+P.s. There are a lot of bugs in sectors, so it's better to play in maps:
+1. Arc
+2. River
+
+RU: Добавляет Вулканум - жаркую пыльную планеты с опасными противниками.
+P.s. Сейчас в секторах много багов, так что лучше играть в карты:
+1. Arc
+2. River
   (2.4)",
   "subtitle" : "W.I.P.",
   "author" : "kosmofrog",
