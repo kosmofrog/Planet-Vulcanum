@@ -1,0 +1,118 @@
+{
+  "type" : "mech",
+  "hitSize" : 8,
+  "rotateSpeed" : 1.5,
+  "speed" : 0.3,
+  "health" : 960,
+  "armor" : 9,
+  "outlineColor" : "#303030FF",
+  "weapons" : [
+   {
+    "name" : "mega-blaster",
+    "top" : false, 
+    "x" : 0,
+    "shootX" : 8.5,
+    "y" : 0,
+    "reload" : 65, 
+    "mirror" : true,
+    "shootSound" : "cannon",
+    "bullet" : {
+     "type" : "BasicBulletType",
+     "damage" : 60,
+     "sprite" : "circle-bullet", 
+     "backSprite" : "circle-bullet-back", 
+     "lifetime" : 40,
+     "speed" : 4,
+     "height" : 9, 
+     "width" : 7, 
+     "frontColor" : "#FFFFFF", 
+     "backColor" : "#DA70D6", 
+     "status" : "electrified", 
+     "fragBullets" : 3,
+     "fragSpread" : 120,
+     "fragRandomSpread" : 0,
+     "fragBullet" : {
+      "type" : "BasicBulletType", 
+      "sprite" : "circle-bullet", 
+      "backSprite" : "circle-bullet-back",
+      "damage" : 7,
+      "lifetime" : 20,
+      "speed" : 4,
+      "height" : 6,
+      "width" : 4,
+      "frontColor" : "#FFFFFF", 
+      "backColor" : "#DA70D6", 
+      "status" : "electrified",
+      "hitEffect" : {
+       "type" : "ParticleEffect", 
+       "line" : true, 
+       "sizeFrom" : 3,
+       "sizeTo" : 0, 
+       "colorFrom" : "#FFFFFF", 
+       "colorTo" : "#DA70D6", 
+       "lifetime" : 20,
+       "particles" : 4,
+       "cone" : 360
+       }, 
+      "despawnEffect" : {
+       "type" : "ParticleEffect", 
+       "line" : true, 
+       "sizeFrom" : 3,
+       "sizeTo" : 0, 
+       "colorFrom" : "#FFFFFF", 
+       "colorTo" : "#DA70D6", 
+       "lifetime" : 20,
+       "particles" : 4,
+       "cone" : 360
+       }, 
+      "fragBullets" : 3,
+      "fragSpread" : 120,
+      "fragRandomSpread" : 0,
+      "fragBullet" : {
+       "type" : "LightningBulletType", 
+       "lightningLength" : 5,
+       "lightningDamage" : 3,
+       "lightningColor" : "#DA70D6",
+       "status" : "electrified"
+       } 
+      }, 
+     "shootEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#DA70D6", 
+      "lifetime" : 20,
+      "particles" : 3,
+      "cone" : 180
+      }, 
+     "hitEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#DA70D6", 
+      "lifetime" : 20,
+      "particles" : 4,
+      "cone" : 360
+      }, 
+     "despawnEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#DA70D6", 
+      "lifetime" : 20,
+      "particles" : 4,
+      "cone" : 360
+      }
+     }
+    } 
+   ] 
+} 
+     
+     
+     
