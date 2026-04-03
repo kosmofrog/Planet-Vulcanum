@@ -22,12 +22,12 @@
      "shots" : 2,
      "shotDelay" : 10
      },
-    "shootSound" : "flame",
+    "shootSound" : "shootFlame",
     "bullet" : {
      "type" : "LiquidBulletType",
      "lifetime" : 30,
      "speed" : 3,
-     "damage" : 5,
+     "damage" : 1.5,
      "liquid" : "slag",
      "status" : "burning"
      }
