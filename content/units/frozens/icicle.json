@@ -16,7 +16,7 @@
     "x" : 0,
     "y" : 0,
     "reload" : 65,
-    "shootSound" : "bolt", 
+    "shootSound" : "shootLocus", 
     "bullet" : {
      "type" : "BasicBulletType", 
      "damage" : 12,
