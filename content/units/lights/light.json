@@ -32,7 +32,7 @@
     "rotateSpeed" : 4.5,
     "mirror" : false,
     "reload" : 80,
-    "shootSound" : "lasershoot", 
+    "shootSound" : "shootLaser", 
     "shoot" : {
      "type" : "ShootPattern", 
      "shots" : 3, 
