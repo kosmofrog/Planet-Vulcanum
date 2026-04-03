@@ -18,8 +18,10 @@
     "y" : 0,
     "mirror" : true,
     "reload" : 100,
-    "shootSound" : "spark",
+    "shootSound" : "shootArc",
     "bullet" : {
+     "hitSound" : "explosionArtilleryShock", 
+     "despawnSound" : "explosionArtilleryShock",
      "type" : "BasicBulletType",
      "damage" : 10,
      "lifetime" : 25,
