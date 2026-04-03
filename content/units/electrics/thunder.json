@@ -15,8 +15,9 @@
     "y" : 0,
     "reload" : 65, 
     "mirror" : true,
-    "shootSound" : "cannon",
+    "shootSound" : "shootArtillery",
     "bullet" : {
+     "hitSound" : "explosion", 
      "type" : "BasicBulletType",
      "damage" : 60,
      "sprite" : "circle-bullet", 
@@ -32,6 +33,8 @@
      "fragSpread" : 120,
      "fragRandomSpread" : 0,
      "fragBullet" : {
+      "hitSound" : "explosionArtilleryShock", 
+      "despawnSound" : "explosionArtilleryShock",
       "type" : "BasicBulletType", 
       "sprite" : "circle-bullet", 
       "backSprite" : "circle-bullet-back",
