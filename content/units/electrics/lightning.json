@@ -19,8 +19,10 @@
      "shotDelay" : 4
      }, 
     "mirror" : true,
-    "shootSound" : "blaster",
+    "shootSound" : "shootCleroi",
     "bullet" : {
+     "hitSound" : "explosionArtilleryShock", 
+     "despawnSound" : "explosionArtilleryShock",
      "type" : "BasicBulletType",
      "damage" : 7,
      "lightningDamage" : 2,
