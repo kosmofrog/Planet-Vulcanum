@@ -8,7 +8,7 @@
   "rotateSpeed" : 3.5,
   "range" : 400,
   "category" : "turret", 
-  "shootSound" : "shootForeShadow",
+  "shootSound" : "shootForeshadow",
   "research" : {
    "parent" : "machine-gun", 
    "requirements" : [
