@@ -1,0 +1,109 @@
+{
+  "type" : "flying",
+  "flying" : true,
+  "speed" : 3,
+  "health" : 510,
+  "armor" : 9,
+  "hitSize" : 14,
+  "engineSize" : 3,
+  "engineOffset" : 10,
+  "engineColor" : "#AFEEEE",
+  "trailLength" : 6,
+  "trailColor" : "#AFEEEE",
+  "outlineColor" : "#303030FF",
+  "weapons" : [
+   {
+    "name" : "ice-bomb",
+    "x" : 0,
+    "y" : 0,
+    "shootX" : 0,
+    "mirror" : false, 
+    "reload" : 120,
+    "shootSound" : "explosionArtillery", 
+    "bullet" : {
+     "type" : "ExplosionBulletType", 
+     "killShooter" : false, 
+     "splashDamage" : 60,
+     "splashDamageRadius" : 50, 
+     "splashDamagePierce" : true, 
+     "status" : "freezing"
+     "shootEffect" : {
+      "type" : "ParticleEffect", 
+      "line" : true, 
+      "sizeFrom" : 3,
+      "sizeTo" : 0, 
+      "colorFrom" : "#FFFFFF", 
+      "colorTo" : "#AFEEEE", 
+      "lifetime" : 20,
+      "particles" : 3,
+      "cone" : 180
+      }, 
+     "hitEffect" : {
+      "type" : "ExplosionEffect", 
+      "waveColor" : "#AFEEEE",
+      "waveStroke" : 3.5,
+      "waveRad" : 50,
+      "sparks" : 3,
+      "sparkColor" : "#AFEEEE", 
+      "sparkRad" : 25,
+      "sparkLen" : 15,
+      "smokes" : 0
+      }, 
+     "despawnEffect" : {
+      "type" : "ExplosionEffect", 
+      "waveColor" : "#AFEEEE",
+      "waveStroke" : 3.5,
+      "waveRad" : 50,
+      "sparks" : 3,
+      "sparkColor" : "#AFEEEE", 
+      "sparkRad" : 25,
+      "sparkLen" : 15,
+      "smokes" : 0
+      }, 
+     "fragBullets" : 5,
+     "fragRandomSpread" : 0,
+     "fragSpread" : 72, 
+     "fragBullet" : {
+      "hitSound" : "explosion", 
+      "despawnSound" : "explosion", 
+      "type" : "BasicBulletType", 
+      "lifetime" : 10,
+      "speed" : 8,
+      "frontColor" : "#FFFFFF", 
+      "backColor" : "#AFEEEE", 
+      "height" : 10,
+      "width" : 3,
+      "trailLength" : 14,
+      "trailColor" : "#AFEEEE", 
+      "pierce" : true, 
+      "pierceCap" : 2,
+      "pierceBuilding" : true, 
+      "damage" : 5, 
+      "status" : "freezing",
+      "hitEffect" : {
+       "type" : "ParticleEffect", 
+       "line" : true, 
+       "sizeFrom" : 3,
+       "sizeTo" : 0, 
+       "colorFrom" : "#FFFFFF", 
+       "colorTo" : "#AFEEEE", 
+       "lifetime" : 20,
+       "particles" : 3,
+       "cone" : 360
+       }, 
+      "despawnEffect" : {
+       "type" : "ParticleEffect", 
+       "line" : true, 
+       "sizeFrom" : 3,
+       "sizeTo" : 0, 
+       "colorFrom" : "#FFFFFF", 
+       "colorTo" : "#AFEEEE", 
+       "lifetime" : 20,
+       "particles" : 3,
+       "cone" : 360
+       } 
+      } 
+     }
+    }
+   ]
+}
