@@ -8,7 +8,7 @@
   "category" : "turret",
   "inaccuracy" : 8,
   "ammoPerShot" : 6,
-  "shootSound" : "blaster", 
+  "shootSound" : "shootCleroi", 
   "targetGround" : false, 
   "research" : {
    "parent" : "machine-gun", 
