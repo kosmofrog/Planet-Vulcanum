@@ -45,7 +45,7 @@
    "width" : 20,
    "sideWidth" : 0,
    "colors" : ["#8B0000	", "#8B0000	", "#FFFFFF"], 
-   "damage" : 80, 
+   "damage" : 140, 
    "laserAbsorb" : true, 
    "pierce" : false, 
    "lightningDelay" : 0,
