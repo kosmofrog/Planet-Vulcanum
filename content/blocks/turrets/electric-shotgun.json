@@ -1,0 +1,64 @@
+{
+  "type" : "PowerTurret",
+  "targetAir" : false,  
+  "size" : 3,
+  "health" : 250,
+  "reload" : 100,
+  "rotateSpeed" : 4,
+  "range" : 100,
+  "category" : "turret",
+  "consumes" : {
+   "power" : 2
+  }, 
+  "shootSound" : "shootArc",
+  "research" : {
+   "parent" : "machine-gun", 
+   "requirements" : [
+    {"item": "iron", "amount": 160},
+    {"item": "asbestos", "amount": 80},
+    {"item": "copper", "amount": 160}
+   ]
+  }, 
+  "requirements" : [
+   {"item": "iron", "amount": 80},
+   {"item": "asbestos", "amount": 40},
+   {"item": "copper", "amount": 80}
+   ],
+  "shoot" : {
+   "type" : "ShootSpread", 
+   "shots" : 6,
+   "shotDelay" : 0,
+   "spread" : 12
+   }, 
+  "shootType" : {
+   "type" : "LightningBulletType", 
+   "lifetime" : 40,
+   "damage" : 6.5,
+   "pierce" : true, 
+   "lightningLength" : 17, 
+   "lightningDamage" : -1,
+   "lightningColor" : "#BFDEDA",
+   "shootEffect" : {
+    "type" : "ParticleEffect", 
+    "particles" : 1,
+    "line" : true, 
+    "colorFrom" : "#FFFFFF", 
+    "colorTo" : "#BFDEDA", 
+    "sizeFrom" : 4,
+    "sizeTo" : 0,
+    "cone" : 180
+    }, 
+   "hitEffect" : {
+    "type" : "ParticleEffect", 
+    "particles" : 4,
+    "line" : true, 
+    "colorFrom" : "#FFFFFF", 
+    "colorTo" : "#BFDEDA", 
+    "sizeFrom" : 4,
+    "sizeTo" : 0,
+    "cone" : 180
+    }, 
+   "despawnEffect" : "none" 
+  }
+} 
+  
