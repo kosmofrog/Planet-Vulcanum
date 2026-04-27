@@ -17,6 +17,9 @@
     "mirror" : true,
     "shootSound" : "shootArtillery",
     "bullet" : {
+     "pierce" : true, 
+     "fragOnHit" : false, 
+     "fragOnDespawn" : true, 
      "type" : "BasicBulletType",
      "hitSound" : "explosion", 
      "damage" : 60,
