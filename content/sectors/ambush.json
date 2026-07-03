@@ -1,0 +1,22 @@
+{
+  "planet" : "vulcanum",
+  "captureWave" : 20,
+  "launchRequirements" : [
+   {"item" : "copper", "amount" : 0}
+  ], 
+  "sector" : 2,
+  "difficulty" : 4,
+  "allowLaunchLoadout" : true,
+  "overrideLaunchDefaults": true, 
+  "research" : {
+   "parent" : "core-base", 
+   "objectives" : [
+    {
+     "type" : "SectorComplete", 
+     "preset" : "river" 
+    } 
+   ]
+  }, 
+  "darknessColor": "#800000",
+  "ambientLight": "#A52A2A"  
+} 
