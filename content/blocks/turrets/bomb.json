@@ -1,0 +1,49 @@
+{
+  "type" : "PowerTurret",
+  "targetAir" : true,  
+  "size" : 3,
+  "health" : 300,
+  "reload" : 10,
+  "rotateSpeed" : 400,
+  "range" : 180,
+  "category" : "turret",
+  "consumes" : {
+  }, 
+  "shootSound" : "explosionReactor",
+  "research" : {
+   "parent" : "machine-gun", 
+   "requirements" : [
+    {"item": "iron", "amount": 200},
+    {"item": "steel", "amount": 80},
+    {"item": "copper", "amount": 240}
+   ]
+  }, 
+  "requirements" : [
+   {"item": "iron", "amount": 180},
+   {"item": "steel", "amount": 70},
+   {"item": "copper", "amount": 200}
+   ], 
+  "shootType" : {
+   "type" : "ExplosionBulletType", 
+   "damage" : 0,
+   "splashDamage" : 550,
+   "splashDamageRadius" : 200, 
+   "killShooter" : true, 
+   "shootEffect" : "none", 
+   "despawnEffect" : {
+    "type" : "ExplosionEffect", 
+    "lifetime" : 60,
+    "waveColor" : "#E58956FF", 
+    "sparkColor" : "#E58956FF", 
+    "waveLife" : 6,
+    "waveStroke" : 3,
+    "waveRad" : 200,
+    "sparkStroke" : 1.2,
+    "sparkRad" : 110,
+    "sparkLen" : 3,
+    "smokes" : 0,
+    "sparks" : 6
+    } 
+  }
+} 
+  
