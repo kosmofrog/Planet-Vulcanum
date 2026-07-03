@@ -38,19 +38,9 @@
       "particles" : 3,
       "cone" : 180
       }, 
-     "hitEffect" : {
-      "type" : "ExplosionEffect", 
-      "waveColor" : "#AFEEEE",
-      "waveStroke" : 3.5,
-      "waveRad" : 50,
-      "sparks" : 3,
-      "sparkColor" : "#AFEEEE", 
-      "sparkRad" : 25,
-      "sparkLen" : 15,
-      "smokes" : 0
-      }, 
      "despawnEffect" : {
-      "type" : "ExplosionEffect", 
+      "type" : "ExplosionEffect",
+      "lifetime" : 60,
       "waveColor" : "#AFEEEE",
       "waveStroke" : 3.5,
       "waveRad" : 50,
