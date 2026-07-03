@@ -38,8 +38,7 @@
      "fragRandomSpread" : 0,
      "fragBullet" : {
       "pierce" : true,
-      "pierceBuilding" : true, 
-      "pierceCap" : 2,
+      "pierceBuilding" : true,
       "hitSound" : "explosionArtilleryShock", 
       "type" : "BasicBulletType", 
       "sprite" : "circle-bullet", 
