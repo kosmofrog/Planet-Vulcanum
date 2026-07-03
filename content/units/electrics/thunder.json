@@ -18,6 +18,7 @@
     "shootSound" : "shootArtillery",
     "bullet" : {
      "pierce" : true, 
+     "pierceBuilding" : true, 
      "fragOnHit" : false, 
      "fragOnDespawn" : true, 
      "type" : "BasicBulletType",
@@ -36,7 +37,8 @@
      "fragSpread" : 120,
      "fragRandomSpread" : 0,
      "fragBullet" : {
-      "pierce" : true, 
+      "pierce" : true,
+      "pierceBuilding" : true, 
       "pierceCap" : 2,
       "hitSound" : "explosionArtilleryShock", 
       "type" : "BasicBulletType", 
@@ -76,7 +78,8 @@
       "fragSpread" : 120,
       "fragRandomSpread" : 0,
       "fragBullet" : {
-       "pierce" : true, 
+       "pierce" : true,
+       "pierceBuilding" : true, 
        "type" : "LightningBulletType", 
        "lightningLength" : 5,
        "lightningDamage" : 3,
