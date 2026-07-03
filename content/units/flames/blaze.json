@@ -7,7 +7,7 @@
   "rotate" : false, 
   "faceTarget" : false, 
   "outlineColor" : "#303030FF", 
-  "immunities" : ["melting", "burning"],
+  "immunities" : ["melting", "burning", "freezing"],
   "trailLength" : 6,
   "hitSize" : 14,
   "weapons" : [
