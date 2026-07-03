@@ -2,7 +2,7 @@
   "type" : "flying",
   "flying" : true,
   "speed" : 3,
-  "health" : 510,
+  "health" : 920,
   "armor" : 9,
   "hitSize" : 14,
   "engineSize" : 3,
